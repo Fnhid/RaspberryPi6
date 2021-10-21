@@ -1,6 +1,6 @@
 import cv2
 
-cap = cv2.VideoCapture(0) #카메라 장치 열기
+cap = cv2.VideoCapture('output.avi') #카메라 장치 열기
 
 if not cap.isOpened():
     print('Camera open failed')
