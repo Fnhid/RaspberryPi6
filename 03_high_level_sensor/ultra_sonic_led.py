@@ -9,7 +9,7 @@ LED_PIN = 10
 GPIO.setmode(GPIO.BCM)
 GPIO.setup(TRIGGER_PIN, GPIO.OUT)
 GPIO.setup(ECHO_PIN, GPIO.IN)
-GPIO.setup(LED_PIN, GPIO.OUT
+GPIO.setup(LED_PIN, GPIO.OUT)
 
 try:
     while True:
