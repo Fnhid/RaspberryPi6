@@ -34,9 +34,6 @@ def demo(n, block_orientation, rotate, inreverse):
     show_message(device, msg, fill="white", font=proportional(CP437_FONT))
     time.sleep(1)
 
-    
-
-
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description='matrix_demo arguments',
         formatter_class=argparse.ArgumentDefaultsHelpFormatter)
